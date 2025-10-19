@@ -25,14 +25,16 @@
             border: solid;
             border-top: 0px;
         }
-        .content {
-            display: grid;
+        main{
+            display: flex;
+            flex-wrap: wrap;
             grid-template-columns: 75% 25%;
             background-color: rgb(241 241 241);
             padding-top: 10px;
         }
-        .content div{
+        main div{
             border: solid;
+            flex: auto;
         }
         h2{
             border-block: solid;
@@ -52,12 +54,12 @@
             <p>Teléfono: 0424 - 7065702</p>
             <p>E-Mail: AndresACM166@gmail.com</p>
         </div>
-        <div><img src="duster.png" alt="Mi foto"></div>
+        <div><img src="duster.png" alt="Mi foto" style="border-radius:25%"></div>
     </header>
     <div class="about_me">
         <p>TSU en informática con experiencia en el diseño y desarrollo web responsivo y programación orientada a objetos. </p>
     </div>
-    <main class="content">
+    <main>
         <div>
             <h2>EXPERIENCIA</h2>
             <h3>Laboratorio Plusandex (2023 a 2025)</h3>
