@@ -7,12 +7,12 @@
     <style>
         .head_of_curr {
             display: flex;
-            background-color: rgb(241 241 241);
-            padding: 10px;
             justify-items: end;
             flex-wrap: wrap;
-            justify-content: space-between;
+            justify-content: space-around;
             border: solid;
+            background-color: rgb(241 241 241);
+            padding: 10px;
         }
         .head_of_curr div {
             background-color: #f1f1f1;
@@ -23,11 +23,29 @@
             background-color: rgb(241 241 241);
             padding: 5px;
             border: solid;
+            border-top: 0px;
+        }
+        .content {
+            display: grid;
+            grid-template-columns: 75% 25%;
+            background-color: rgb(241 241 241);
+            padding-top: 10px;
+        }
+        .content div{
+            border: solid;
+        }
+        h2{
+            border-block: solid;
+            margin: initial;
+            padding: 5px;
+        }
+        h3 {
+            margin: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="head_of_curr">
+    <header class="head_of_curr">
         <div>
             <h1>Andrés Alexander Corona Moreno</h1>
             <p>Dirección: Venezuela, Estado Mérida, El Vigía.</p>
@@ -35,14 +53,50 @@
             <p>E-Mail: AndresACM166@gmail.com</p>
         </div>
         <div><img src="duster.png" alt="Mi foto"></div>
-    </div>
+    </header>
     <div class="about_me">
         <p>TSU en informática con experiencia en el diseño y desarrollo web responsivo y programación orientada a objetos. </p>
     </div>
-    <div class="content">
+    <main class="content">
         <div>
-
+            <h2>EXPERIENCIA</h2>
+            <h3>Laboratorio Plusandex (2023 a 2025)</h3>
+            <p>Aprendiz INCES—Auxiliar de Laboratorio</p>
+            <ul>
+                <li>Mantenimiento de equipos e instrumento</li>
+                <li>Gestión del Inventario y Suministros </li>
+                <li>Monitoreo de Experimentos y Registro de Resultados </li>
+                <li>Registro y Almacenamiento de Materiales</li>
+                <li>Tareas de soporte y asistencia, correspondencia y documentos </li>
+            </ul>
+            <h2>ESTUDIOS</h2>
+                <ul>
+                    <li>Bachiller en Ciencias</li>
+                    <h3>Unidad Educativa Colegio Santa Teresita (2022)</h3>
+                    <li>Asistente Administrativo</li>
+                    <h3> INCES (2022)</h3>
+                    <li>TSU en Informática</li>
+                    <h3>Instituto Universitario de Tecnología Dr. Cristóbal Mendoza (2024)</h3>
+                </ul>
         </div>
-    </div>
+        <div>
+            <h2>HABILIDADES</h2>
+            <p> Desarrollo WEB <br>●●●●•</p>
+            <p> Mantenimiento de Equipos <br>●●●●●</p>
+            <p> Bases de Datos <br>●●●●●</p>
+            <p> Sistemas Operativos <br>●●●●•</p>
+            <p> Trabajo en Equipo <br>●●●●●</p>
+            <p> MS Office <br>●●●●●</p>
+            <h2>Lenguajes</h2>
+            <p> C y C++ <br>●●●●•</p>
+            <p> PHP <br>●●●●●</p>
+            <p> JavaScript <br>●●●●●</p>
+            <p> HTML y CSS <br>●●●●•</p>
+            <p> GitHub <br>●●•••</p>
+            <h2>LENGUAJES</h2>
+            <p>Ingles Avanzado</p>
+            <p>Español Nativo</p>
+        </div>
+    </main>
 </body>
 </html>
